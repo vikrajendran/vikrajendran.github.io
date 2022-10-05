@@ -14,10 +14,7 @@
     <!-- Link to my style sheet -->
     <link rel="stylesheet" href="index2.css">
 
-    <!--The next three lines allow the Vega embed-->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+  
 </head>
 
 
@@ -31,21 +28,17 @@
         <p>The first chart shows the results of employing Gaussian Mixture Modelling and Principal Component Analysis on MLB Starting Pitchers.</p>
         <img src="PitcherTypes.png" alt="PitcherTypes" />
 
-        <h3>Consumer Basket</h3>
-        <p>My second chart looks at the changes in weights of different goods in the consumer basket since 1988</p>
-        <div class="chart" id="Chart2"> </div>
+       
     </div> 
 </body>
 
 
 <script>
     //Define charts:
-    
-    var myChart2 = "chartINF10.json";
+
 
     // Embed charts:
-    vegaEmbed('#Chart1', myChart1);
-    vegaEmbed('#Chart2', myChart2);
+    
 </script>
 
 </html>
