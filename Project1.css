@@ -15,6 +15,15 @@ h1, h3, p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
+#container {
+    display: flex;
+    align-items: center;
+}
+
+#container p {
+    margin-left: 1em;
+}
     
 .myWeek1{
     margin: auto;
