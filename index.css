@@ -39,4 +39,15 @@ h1, h3, p{
 
     
 }
+
+.chart1{
+    background-color: orange;
+    width:500px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+
+    
+}
     
