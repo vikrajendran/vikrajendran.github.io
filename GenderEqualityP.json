@@ -44,7 +44,7 @@
               "tooltip":[
         {"field":"Country Name", "type": "ordinal", "title":"Country"},
         {"field":"%Diff", "type": "quantitative", "title":"Percentage Difference", "format":".0f"},
-        {"field":"2021 Gender Inequality Index", "type": "quantitative", "title":"Gender Inequality Index", "format":".2f"},
+        {"field":"2021 Gender Inequality Index", "type": "quantitative", "title":"Gender Inequality Index", "format":".2f"}
               ]
   
       
