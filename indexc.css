@@ -3,25 +3,16 @@ h1, h3, p{
     color:#5A5A5A;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    line-height:3.5em;
 }
 
 
 /* AREAS OF THE PAGE */
 
 body{
-    background-color: whitesmoke;
-}
 
-.myWeek1{
-    margin: auto;
-    max-width: 1000px;
-    background-color: #fcf7f7;
+    background-color: #fcf7f7;   
 
-      
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(100,100,100);
 }
 
 
@@ -34,7 +25,7 @@ a{
     border-color: black;
     border-style: solid;
 
-    margin:20px
+    margin:15px
 }
 
 
@@ -58,14 +49,14 @@ a{
     padding:20px;
     
     border:2px;
-    border-color:whitesmoke;
+    border-color:#5A5A5A;
     border-style: solid;
     border-radius: 10px;
 
     font-family: 'Roboto', sans-serif;
     font-weight:700;
     color:#5A5A5A;
-    
+    text-align: center;
     text-decoration: none;
     
 }
@@ -99,5 +90,3 @@ a{
 
     animation: border-pulsate1 4s infinite;
 }
-
-
