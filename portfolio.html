@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title for the page -->
+    <title>Document</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="index2.css">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+
+
+
+<body>
+    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <div class="myWeek1">
+        <h1>Week 1.</h1>
+        
+        <h3>Budget Deficit</h3>
+        <p>The first chart tracks the UK budget deficit since 1950.</p>
+        <div class="chart" id="Chart1"></div>
+
+        <h3>Consumer Basket</h3>
+        <p>My second chart looks at the changes in weights of different goods in the consumer basket since 1988</p>
+        <div class="chart" id="Chart2"> </div>
+        
+         <h1>Week 2.</h1>
+        
+        <h3>IMF Lending Outstanding</h3>
+        <p>The chart tracks IMF Lending Outstanding since 1984.</p>
+        <div class="chart" id="Chart3"></div>
+
+        <h3>IMF Lending Outstanding compared to World GDP</h3>
+        <p>This chart shows IMF Lending Outstanding as a percentage of World GDP, from this 1984 was the riskiest year as IMF Lending outstanding was the greatest as a percentage of World GDP.</p>
+        <div class="chart" id="Chart4"> </div>
+        
+        <h1>Week 3.</h1>
+        
+        <h3>Mohamed Salah - Game Log</h3>
+        <p>The chart shows Mohamed Salah's attacking and creative output by game in the 2021-22 Season.</p>
+        <div class="chart1" id="Chart5"></div>
+    </div> 
+</body>
+
+
+<script>
+    //Define charts:
+    var myChart1 = "chartPSF1.json";
+    var myChart2 = "chartINF10.json";
+    var myChart3 = "IMFLending1.json";
+    var myChart4 = "IMFLending2.json";
+    var myChart5 = "Salah.json";
+
+    // Embed charts:
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    
+</script>
+
+</html>
