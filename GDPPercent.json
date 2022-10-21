@@ -44,7 +44,7 @@
               "tooltip":[
         {"field":"Country Name", "type": "ordinal", "title":"Country"},
         {"field":"%Diff", "type": "quantitative", "title":"Percentage Difference", "format":".0f"},
-        {"field":"2020", "type": "quantitative", "title":"GDP per Capita ($)", "format":".2f"},
+        {"field":"2020", "type": "quantitative", "title":"GDP per Capita ($)", "format":".2f"}
               ]
   
       
