@@ -1,0 +1,103 @@
+/* FONTS: */
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-variant: small-caps;
+    color:red;
+    background-color: white;
+}
+
+
+/* AREAS OF THE PAGE */
+
+body{
+    background-color: blue;
+}
+
+.wrap{
+    background-color: aqua;
+}
+
+
+
+
+/* BUTTONS */
+
+a{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+
+    margin:20px
+}
+
+
+#link1{
+    border-color:pink;
+    border-style:dashed
+}
+
+#link2{
+    border:2px;
+    border-color:black;
+    border-style: solid;
+
+    border-radius: 5px;
+
+}
+
+#link3{
+    background-color: rgba(0, 47, 167, .5);
+
+    padding:20px;
+    
+    border:2px;
+    border-color:grey;
+    border-style: solid;
+    border-radius: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+    color:white;
+    
+    text-decoration: none;
+    
+}
+
+#link3:hover{
+
+    background-color: rgba(0, 47, 167, .8);
+
+    border:2px;
+    border-color:yellow;
+    border-style: solid;
+    
+}
+
+
+#link4{
+    background-color: yellow;
+
+    padding:20px;
+    
+    border:20px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+    color:grey;
+    
+    text-decoration: none;
+
+    animation: border-pulsate1 4s infinite;
+}
+
+
