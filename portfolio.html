@@ -47,8 +47,10 @@
         <h1>Week 3.</h1>
         
         <h3>Mohamed Salah - Game Log</h3>
-        <p>The chart shows Mohamed Salah's attacking and creative output by game in the 2021-22 Season.</p>
-        <div class="chart1" id="Chart5"></div>
+        <p>The second visual encoding varies the colour of the points based on the position of each player, I chose this as it enables trends which were not previously clear to be seen players who progress the ball most through carries are likely to be forwards.</p>
+            <div style = "display: flex">
+    <div class="chart" id="Chart5"></div>
+    <div class="chart" id="Chart6"></div>
     </div> 
 </body>
 
@@ -59,7 +61,8 @@
     var myChart2 = "chartINF10.json";
     var myChart3 = "IMFLending1.json";
     var myChart4 = "IMFLending2.json";
-    var myChart5 = "Salah.json";
+    var myChart5 = "PL1.json";
+    var myChart6 = "PL2.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -67,6 +70,7 @@
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
     
 </script>
 
