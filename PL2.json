@@ -2,7 +2,7 @@
 
     "title": {
       "text": ["Ball Progression and Goal Creation in the 2021-22 Premier League"],
-      "subtitle":["Progressive Passes (x), Progressive Carries (y).", "size by population, all stats normalised per 90mins played."],
+      "subtitle":["Progressive Passes (x), Progressive Carries (y). size by Expected Assists", "all stats normalised per 90mins played. min 1500 mins played"],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
