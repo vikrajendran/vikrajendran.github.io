@@ -57,7 +57,7 @@
         {"field":"Player", "type": "ordinal", "title":"Player"},
         {"field":"Progressive Passes", "type": "quantitative", "title":"Progressive Passes", "format":".2f"},
         {"field":"Progressive Carries", "type": "quantitative", "title":"Progressive Carries", "format":".2f"},
-        {"field":"Expected Assists", "type": "quantitative", "title":"Expected Assists", "format":","}
+        {"field":"Expected Assists", "type": "quantitative", "title":"Expected Assists", "format":".2f"}
 
       ]
 
