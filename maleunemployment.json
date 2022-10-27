@@ -39,7 +39,7 @@
 
                   "tooltip":[
         {"field":"date", "type": "temporal", "title":"Date"},
-        {"field":"value", "type": "quantitative", "title":"Male part-time workers", "format":".1f"}
+        {"field":"value", "type": "quantitative", "title":"Male unemployment", "format":".1f"}
 
       ]
     }
