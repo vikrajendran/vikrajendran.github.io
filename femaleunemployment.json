@@ -8,7 +8,7 @@
 
 
     "title": {
-        "text": "Female Unemployment Rate",
+        "text": "Female Unemployment Rate (%)",
         "subtitle": "Aged 16-64 and economically active, data: ONS",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
@@ -39,7 +39,7 @@
 
                   "tooltip":[
         {"field":"date", "type": "temporal", "title":"Date"},
-        {"field":"value", "type": "quantitative", "title":"Male part-time workers", "format":".1f"}
+        {"field":"value", "type": "quantitative", "title":"Female unemployment rate", "format":".1f"}
 
       ]
     }
