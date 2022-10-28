@@ -34,7 +34,7 @@
       "y": {
           "field": "value",
           "type": "quantitative",
-          "scale": {"domain": [50, 75]},
+          "scale": {"domain": [0, 75]},
           "title":null},
 
                   "tooltip":[
