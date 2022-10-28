@@ -50,6 +50,17 @@ h1, h3, p{
 
 }
 
+
+.chart2{
+    background-color: white;
+    width:300px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;
+
+}
+
 #link{
     background-color: #fcf7f7;
 
@@ -63,7 +74,7 @@ h1, h3, p{
     
 }
 
-#link3:hover{
+#link:hover{
 
   
 
