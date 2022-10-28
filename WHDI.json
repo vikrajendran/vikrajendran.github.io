@@ -32,14 +32,14 @@
         "type": "quantitative",
         "scale": {"domain": [0.3, 1]},
         "axis":{"grid": false},
-        "title":null},
+        "title":"Less developed ⟵- - - - - - - - - - - -⟶  More developed"},
   
       "y": {
         "field": "2021 Ranking Points", 
         "type": "quantitative",
         "scale": {"domain": [300, 2200]},
         "axis":{"grid": false},
-        "title":null},
+        "title":"Worse team ⟵- - - - - - - - - - - - - - - - -⟶  Better team"},
   
       "size": {
         "field": "2021 Population", 
