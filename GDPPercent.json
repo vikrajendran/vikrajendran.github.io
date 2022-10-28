@@ -39,7 +39,7 @@
         "type": "quantitative",
         "scale": {"domain": [-60, 70]},
         "axis":{"grid": false},
-        "title":null},
+        "title":"Better Women's Team ⟵- - - - - - - - -⟶  Better Men's Team"},
 
               "tooltip":[
         {"field":"Country Name", "type": "ordinal", "title":"Country"},
