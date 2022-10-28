@@ -8,7 +8,7 @@
 
 
     "title": {
-        "text": "UK Job Vacancies",
+        "text": "Job Vacancies",
         "subtitle": "Thousands, data: ONS",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
