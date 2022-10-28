@@ -9,7 +9,7 @@
 
     "title": {
         "text": "Male part-time workers",
-        "subtitle": "United Kingdom (thousands), data: ONS",
+        "subtitle": "Thousands, data: ONS",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "anchor": "start",
