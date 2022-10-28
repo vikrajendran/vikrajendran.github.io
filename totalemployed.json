@@ -15,8 +15,8 @@
         "anchor": "start",
         "color": "black"},
 
-    "width":300,
-    "height":300,
+    "width":250,
+    "height":250,
 
     "mark":{
         "type": "line",
@@ -34,7 +34,7 @@
       "y": {
           "field": "value",
           "type": "quantitative",
-          "scale": {"domain": [23000, 35000]},
+          "scale": {"domain": [0, 35000]},
           "title":null},
 
                   "tooltip":[
