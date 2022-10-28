@@ -32,14 +32,14 @@
         "type": "quantitative",
         "scale": {"domain": [0, 0.8]},
         "axis":{"grid": false},
-        "title":null},
+        "title":"More equal ⟵- - - - - - - - - - - - - -⟶  Less equal"},
   
       "y": {
         "field": "Womens Points", 
         "type": "quantitative",
         "scale": {"domain": [300, 2200]},
         "axis":{"grid": false},
-        "title":null},
+        "title":"Worse team ⟵- - - - - - - - - - - - - -⟶  Better team"},
   
       "size": {
         "field": "2021", 
