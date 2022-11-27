@@ -70,6 +70,16 @@ h1, h3, p{
     border-color: grey;
 
 }
+
+.chart4{
+    background-color: white;
+    width:400px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;
+
+}
 #link{
     background-color: #fcf7f7;
 
