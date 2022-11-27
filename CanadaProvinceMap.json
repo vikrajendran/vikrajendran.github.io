@@ -1,0 +1,29 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "title": {
+      "text": ["Canada Province Map"],
+      "anchor": "start",
+      "color": "black"
+    },
+
+"width": 500,
+"height": 300,
+"data": {
+  "url": "https://raw.githubusercontent.com/vikrajendran/vikrajendran.github.io/main/canadaprov.json",
+  "format": {"property": "features"}},
+
+"projection": {"type": "mercator"},
+"mark": {
+  "type": "geoshape",
+  "fill": "lightgrey",
+  "stroke": "black",
+  "strokewidth": 0.5
+},
+
+"encoding": {
+  "tooltip": [{
+    "field": "properties.gn_name", "type": "nominal", "title": "Province" }]
+}
+
+
+}
