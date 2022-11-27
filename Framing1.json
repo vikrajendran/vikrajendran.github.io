@@ -30,6 +30,7 @@
       "y": {
         "field": "Percent",
         "type": "quantitative",
+        "scale": {"domain": [0, 55]},
         "title": "Percent",
         "axis": {"grid": false}},
 
