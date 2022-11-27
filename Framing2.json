@@ -1,7 +1,7 @@
 {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-      "text": ["Do you support for affirmative action that decreases the", "share of White and Asian students in selective institutions?"],
+      "text": ["Do you support affirmative action that decreases the share", "of White and Asian students in selective institutions?"],
       "subtitle":"Data: YouGov",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
