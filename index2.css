@@ -61,6 +61,15 @@ h1, h3, p{
 
 }
 
+.chart3{
+    background-color: white;
+    width:350px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;
+
+}
 #link{
     background-color: #fcf7f7;
 
