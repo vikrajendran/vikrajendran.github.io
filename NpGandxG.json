@@ -2,7 +2,7 @@
 
     "title": {
       "text": ["Non-Penalty Goals and Expected Goals", "in Europe's Top 5 Leagues 2021-22"],
-      "subtitle":["Non-Penalty xG (x), Non-Penalty Goals (y). size by Non-Penalty xG", "all stats normalised per 90mins played. min 25 90s played"],
+      "subtitle":["Non-Penalty xG (x), Non-Penalty Goals (y). size by Non-Penalty xG,", "all stats per 90mins played, min 25 90s played, data: FBref"],
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
