@@ -27,7 +27,7 @@
       }
     }
   ],
-  "mark": {"type": "geoshape", "stroke": "black", "strokewidth": 0.5},
+  "mark": {"type": "geoshape", "stroke": "lightgray", "strokeWidth": 0.3},
   "encoding": {
     "color": {
       "field": "Population density per square kilometre, 2021",
