@@ -17,7 +17,7 @@
   "type": "geoshape",
   "fill": "lightgrey",
   "stroke": "black",
-  "strokewidth": 0.5
+  "strokeWidth": 0.35
 },
 
 "encoding": {
