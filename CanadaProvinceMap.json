@@ -12,7 +12,7 @@
   "url": "https://raw.githubusercontent.com/vikrajendran/vikrajendran.github.io/main/canadaprov.json",
   "format": {"property": "features"}},
 
-"projection": {"type": "mercator"},
+"projection": {"type": "conicConformal", "rotate": [0,70]},
 "mark": {
   "type": "geoshape",
   "fill": "lightgrey",
