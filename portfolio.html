@@ -106,6 +106,23 @@
             <div style = "display: flex">
     <div class="chart3" id="Chart22"></div>
     <div class="chart" id="Chart23"></div>
+      
+     <h1>Week 10</h1>
+        
+     <h3>Principle Component Analysis on Football Players</h3>
+     <p>My hypothesis was that PCA on 8 different football stats could be used to identify similar players and player roles.</p>
+     <p>The chart shows that most players traditional position is the same as others with similar component values with PCA adding further insight in identifying exceptions.  A link to the python notebook where I performed my data analysis is <a href="https://colab.research.google.com/drive/1xBeXoaYcdoXF0qS_LsrPoGMMRbyCs62v?usp=sharing" id="link" >here</a>.</p>
+     <div class="chart1" id="Chart24"></div>
+                
+     <h1>Week 11</h1>
+        
+     <h3>Linear Regression on Men's and Women's National Football Teams</h3>
+     <p>My hypothesis was that the strength of a country's Men's football team could be used as an indicator of their Women's Team.</p>
+     <p>The chart shows the results of the regression with a strong relationship between Men's and Women's teams with 51% of variance explained by Men's national team ranking. A link to the python notebook where I performed my data analysis is <a href="https://colab.research.google.com/drive/1D28psySReNCdj1w9uXBSsQPJ4yTPzHFg?usp=sharing" id="link" >here</a>.</p>
+     <img src="Week11.png" alt="PitcherTypes"
+      width= "400"
+      height= "400" />
+
                 
         
         </div>
@@ -139,6 +156,7 @@
     var myChart21 = "Framing2.json";
     var myChart22 = "NpGandxG.json";
     var myChart23 = "xGHistogram.json";
+    var myChart24 = "FootballPCA.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -164,6 +182,7 @@
     vegaEmbed('#Chart21', myChart21);
     vegaEmbed('#Chart22', myChart22);
     vegaEmbed('#Chart23', myChart23);
+    vegaEmbed('#Chart24', myChart24);
     
 
     
