@@ -79,9 +79,9 @@
 
     "title": {
 
-    "text": "Current budget deficit",
+    "text": "Budget deficit over time",
 
-    "subtitle": "% GDP. Annual median. Source: ONS",
+    "subtitle": "Percecntage of GDP. Annual median. Source: ONS",
 
     "subtitleFontStyle":"italic",
 
