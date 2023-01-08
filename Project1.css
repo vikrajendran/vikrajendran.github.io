@@ -42,12 +42,26 @@ h1, h3, p{
 .chart{
     background-color: white;
     width:450px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
     border-color: grey;
 
 }
+
+img.chart1{
+
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+
+
+}
+
+
 #link{
     background-color: #fcf7f7;
 
